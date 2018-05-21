@@ -11,8 +11,8 @@ None.
 Available variables are listed below, along with default values:
 
     # The defaults provided by this role are specific to each distribution.
-    mysql_root_password:
-       - root
+    php_version:
+       - 5.6 or 7.1
 
 Set the php_version accordingly.
 
