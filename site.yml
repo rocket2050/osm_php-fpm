@@ -1,0 +1,7 @@
+---
+#- hosts: {{ host }}
+- hosts: php
+  become: true
+  roles:
+    - /etc/ansible/roles/Assignments/ansible-role-php-versions
+  remote_user: root
